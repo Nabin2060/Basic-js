@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        // Map 
+        // const nums=[1,4,5,6,7,23,8,9];
+        // const newNums=nums.filter((num)=>num>4)
+        // console.log(newNums);
+
+    //    function calculateCartPrice(...num1){
+    //     return num1;
+    //    }
+    //    console.log(calculateCartPrice(22,1112,2,2));
+     
+
+    //    const user={
+    //     userName:"ram",
+    //     price:200
+    //    }
+    //    function handleObject(anyObj){
+    //     console.log()
+    //    }
+
+//     Write a JavaScript function that returns a string that has letters in alphabetical order.
+// Example string : 'webmaster'
+// Expected Output : 'abeemrstw'
+
+// const str="webmaster";
+// function strFun(){
+    
+//     return str.split('').sort().join('');
+// }
+// console.log(strFun());
+
+// Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word into upper case.
+// Example string : 'the quick brown fox'
+// Expected Output : 'The Quick Brown Fox '
+// const str="the quick brown fox";
+// function myFun(){
+//     return str.toLocaleUpperCase().toString();
+// }
+// console.log(myFun());
+
+            //  Array 
+// const one=[3,4,5,"t",5,7];
+// const two=["one",'two'];
+// one.push(two);
+// console.log(one);
+// console.log(one[6][1]);
+   
+    //  object Literals
+ const jsUser={
+    name:"ram",
+
+ }
+
+ const regular={
+    email:"abc@gmail.com",
+    fullNAme:{
+        userFullNAme:{
+            firstNAme:"abc",
+            lastName:"cde"
+        }
+    }
+ }
+
+//  console.log(regular.fullNAme.userFullNAme.lastName)
+
+ const course={
+    courseName:"js tutorial",
+    price : 999,
+    courseInstructor:"Nan"
+ }
+ const{courseInstructor}=course
+//  console.log(courseInstructor);
+//  console.log(course.courseInstructor)
+
+//  {
+//     name:'js',
+//     courseName:"rrrrr",
+//     price:333
+//  }
+
+
+    //  ++++++++++++  Function +++++
+
+    // function myFun(num1,num2){
+    //    console.log(  num1+num2);
+    // }
+
+    // myFun(33,'44');
+
+    function calculateCartPrice(...num1){
+       return num1;
+
+    }
+    // console.log(calculateCartPrice(200,300,400));
+
+    // let a=10;
+    // const b=44;
+    // var c=33;
+
+    // console.log(a);
+    // console.log(b);
+    // console.log(c);
+
+        // High Order Array 
+     
+        const arr=[1,2,3,4,5,6];
+        for(const num of arr){
+        //    console.log(num);
+
+        }
+
+        const myNums=[1,2,3,4,5,6,7];
+       const newNums= myNums.filter( (num)=>num>5)
+    //    console.log(newNums)
+
+    const books=[
+        {
+            title:"Book One",genre:"abu",publish:1998,edition:2004,
+        },
+        {
+            title:"Book two",genre:"abu",publish:1968,edition:2017,
+        },{
+            title:"Book three",genre:"histry",publish:1458,edition:2025,
+        },
+        {
+            title:"Book four",genre:"abu",publish:1908,edition:2011,
+        },
+        {
+            title:"Book five",genre:"histry",publish:1930,edition:2024,
+        },
+        {
+            title:"Book six",genre:"abu",publish:1453,edition:2001,
+        }
+    ]
+    const userBook=books.filter((bk)=>bk.genre==='histry');
+    // console.log(userBook);
+    const userBooks=books.filter((bk)=>{return bk.publish >=1900
+    });
+    // console.log(userBooks);
+
+
+  
+
+
+
+
+    </script>
+</body>
+</html>

@@ -40,6 +40,8 @@ console.log(thirdArr[4]);
 console.log(thirdArr[6]);
 console.log(one.name);
 console.log(thirdArr[2].name);
+console.log(thirdArr);
+
 // console.log(thirdArr.age());
 
 // Update 
